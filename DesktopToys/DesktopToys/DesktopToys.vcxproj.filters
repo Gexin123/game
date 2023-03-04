@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="father">
+      <UniqueIdentifier>{06cd16e8-d528-4c3f-b9d2-add2f5cfc98b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shooter0">
+      <UniqueIdentifier>{86f1df46-57e2-4dbd-a87f-2278497508cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shooter1">
+      <UniqueIdentifier>{cc4f830d-e8c6-4b6a-a217-8472976925fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shooter2">
+      <UniqueIdentifier>{c388cfd9-28c1-4759-8c89-25e5cb29ec77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shooter3">
+      <UniqueIdentifier>{3b93847d-f424-43f0-aceb-eb2ed2e4aa4b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DesktopToys.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DesktopToysDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenTools.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTimer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScopeGuard.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DMenu.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuItem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyDraw.h">
+      <Filter>father</Filter>
+    </ClInclude>
+    <ClInclude Include="CShooter.h">
+      <Filter>father</Filter>
+    </ClInclude>
+    <ClInclude Include="IMark.h">
+      <Filter>father</Filter>
+    </ClInclude>
+    <ClInclude Include="IMouseAction.h">
+      <Filter>father</Filter>
+    </ClInclude>
+    <ClInclude Include="Shooter0Mark.h">
+      <Filter>Shooter0</Filter>
+    </ClInclude>
+    <ClInclude Include="Shooter0.h">
+      <Filter>Shooter0</Filter>
+    </ClInclude>
+    <ClInclude Include="Shooter1Mark.h">
+      <Filter>Shooter1</Filter>
+    </ClInclude>
+    <ClInclude Include="Shooter1.h">
+      <Filter>Shooter1</Filter>
+    </ClInclude>
+    <ClInclude Include="Shooter2Mark.h">
+      <Filter>Shooter2</Filter>
+    </ClInclude>
+    <ClInclude Include="Shooter2.h">
+      <Filter>Shooter2</Filter>
+    </ClInclude>
+    <ClInclude Include="Shooter3.h">
+      <Filter>Shooter3</Filter>
+    </ClInclude>
+    <ClInclude Include="Shooter3Mark.h">
+      <Filter>Shooter3</Filter>
+    </ClInclude>
+    <ClInclude Include="TipStringChangeColor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TipStringFall.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DesktopToys.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DesktopToysDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DMenu.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuItem.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CShooter.cpp">
+      <Filter>father</Filter>
+    </ClCompile>
+    <ClCompile Include="IMark.cpp">
+      <Filter>father</Filter>
+    </ClCompile>
+    <ClCompile Include="MyDraw.cpp">
+      <Filter>father</Filter>
+    </ClCompile>
+    <ClCompile Include="IMouseAction.cpp">
+      <Filter>father</Filter>
+    </ClCompile>
+    <ClCompile Include="Shooter0Mark.cpp">
+      <Filter>Shooter0</Filter>
+    </ClCompile>
+    <ClCompile Include="Shooter0.cpp">
+      <Filter>Shooter0</Filter>
+    </ClCompile>
+    <ClCompile Include="Shooter1Mark.cpp">
+      <Filter>Shooter1</Filter>
+    </ClCompile>
+    <ClCompile Include="Shooter1.cpp">
+      <Filter>Shooter1</Filter>
+    </ClCompile>
+    <ClCompile Include="Shooter2Mark.cpp">
+      <Filter>Shooter2</Filter>
+    </ClCompile>
+    <ClCompile Include="Shooter2.cpp">
+      <Filter>Shooter2</Filter>
+    </ClCompile>
+    <ClCompile Include="Shooter3.cpp">
+      <Filter>Shooter3</Filter>
+    </ClCompile>
+    <ClCompile Include="Shooter3Mark.cpp">
+      <Filter>Shooter3</Filter>
+    </ClCompile>
+    <ClCompile Include="TipStringChangeColor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TipStringFall.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DesktopToys.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\DesktopToys.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\DesktopToys.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
